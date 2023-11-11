@@ -1,0 +1,176 @@
+Date : 2023-11-06 02:40:47
+Directory : c:\Users\ACER\Desktop\cheap-grocery
+Total : 118 files,  30374 codes, 461 comments, 1390 blanks, all 32225 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          5 |     20,901 |          0 |          5 |     20,906 |
+| JavaScript |         80 |      6,756 |        427 |        952 |      8,135 |
+| CSS        |         31 |      2,653 |         34 |        396 |      3,083 |
+| Markdown   |          1 |         38 |          0 |         33 |         71 |
+| HTML       |          1 |         26 |          0 |          4 |         30 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                          |        118 |     30,374 |        461 |      1,390 |     32,225 |
+| . (Files)                                                                                  |          2 |      1,163 |          0 |          2 |      1,165 |
+| backend                                                                                    |         21 |      1,133 |         61 |        229 |      1,423 |
+| backend (Files)                                                                            |          2 |         50 |          6 |         18 |         74 |
+| backend\config                                                                             |          1 |         13 |          0 |          3 |         16 |
+| backend\controllers                                                                        |          4 |        572 |         34 |        143 |        749 |
+| backend\middlewares                                                                        |          3 |         49 |          4 |         16 |         69 |
+| backend\models                                                                             |          3 |        264 |          5 |         16 |        285 |
+| backend\routes                                                                             |          4 |        114 |          0 |         11 |        125 |
+| backend\utils                                                                              |          4 |         71 |         12 |         22 |        105 |
+| frontend                                                                                   |         95 |     28,078 |        400 |      1,159 |     29,637 |
+| frontend (Files)                                                                           |          3 |     19,751 |          0 |         35 |     19,786 |
+| frontend\public                                                                            |          2 |         51 |          0 |          5 |         56 |
+| frontend\src                                                                               |         90 |      8,276 |        400 |      1,119 |      9,795 |
+| frontend\src (Files)                                                                       |          7 |        383 |         10 |         34 |        427 |
+| frontend\src\actions                                                                       |          5 |        609 |         23 |        141 |        773 |
+| frontend\src\components                                                                    |         70 |      6,467 |        361 |        858 |      7,686 |
+| frontend\src\components\Admin                                                              |         17 |      1,834 |         63 |        252 |      2,149 |
+| frontend\src\components\Cart                                                               |         14 |      1,121 |          4 |        153 |      1,278 |
+| frontend\src\components\Home                                                               |          4 |        316 |         17 |         38 |        371 |
+| frontend\src\components\Order                                                              |          4 |        358 |          0 |         54 |        412 |
+| frontend\src\components\Product                                                            |          7 |        819 |        133 |        105 |      1,057 |
+| frontend\src\components\Route                                                              |          2 |         31 |          0 |          4 |         35 |
+| frontend\src\components\User                                                               |         12 |      1,600 |        130 |        199 |      1,929 |
+| frontend\src\components\layout                                                             |         10 |        388 |         14 |         53 |        455 |
+| frontend\src\components\layout (Files)                                                     |          2 |        108 |         14 |         17 |        139 |
+| frontend\src\components\layout\Footer                                                      |          2 |         92 |          0 |         13 |        105 |
+| frontend\src\components\layout\Header                                                      |          4 |        158 |          0 |         17 |        175 |
+| frontend\src\components\layout\Loader                                                      |          2 |         30 |          0 |          6 |         36 |
+| frontend\src\constants                                                                     |          4 |         98 |          0 |         34 |        132 |
+| frontend\src\reducers                                                                      |          4 |        719 |          6 |         52 |        777 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                   | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\ACER\Desktop\cheap-grocery\backend\app.js                                         | JavaScript |         22 |          3 |          7 |         32 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\config\database.js                             | JavaScript |         13 |          0 |          3 |         16 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\controllers\orderController.js                 | JavaScript |        103 |          6 |         26 |        135 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\controllers\paymentController.js               | JavaScript |         21 |          0 |          7 |         28 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\controllers\productController.js               | JavaScript |        215 |         13 |         50 |        278 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\controllers\userController.js                  | JavaScript |        233 |         15 |         60 |        308 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\middlewares\auth.js                            | JavaScript |         21 |          0 |          6 |         27 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\middlewares\catchAsyncErrors.js                | JavaScript |          3 |          0 |          0 |          3 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\middlewares\error.js                           | JavaScript |         25 |          4 |         10 |         39 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\models\orderModel.js                           | JavaScript |         86 |          0 |          3 |         89 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\models\productModel.js                         | JavaScript |         80 |          0 |          3 |         83 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\models\userModel.js                            | JavaScript |         98 |          5 |         10 |        113 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\routes\orderRoute.js                           | JavaScript |         11 |          0 |          3 |         14 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\routes\paymentRoute.js                         | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\routes\productRoute.js                         | JavaScript |         46 |          0 |          3 |         49 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\routes\userRoutes.js                           | JavaScript |         50 |          0 |          3 |         53 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\server.js                                      | JavaScript |         28 |          3 |         11 |         42 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\utils\apifeatures.js                           | JavaScript |         25 |         10 |         11 |         46 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\utils\errorhandler.js                          | JavaScript |          8 |          0 |          2 |         10 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\utils\jwtToken.js                              | JavaScript |         15 |          2 |          5 |         22 |
+| c:\Users\ACER\Desktop\cheap-grocery\backend\utils\sendEmail.js                             | JavaScript |         23 |          0 |          4 |         27 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\README.md                                     | Markdown   |         38 |          0 |         33 |         71 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\package-lock.json                             | JSON       |     19,643 |          0 |          1 |     19,644 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\package.json                                  | JSON       |         70 |          0 |          1 |         71 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\public\index.html                             | HTML       |         26 |          0 |          4 |         30 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\public\manifest.json                          | JSON       |         25 |          0 |          1 |         26 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\App.css                                   | CSS        |         18 |          5 |          4 |         27 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\App.js                                    | JavaScript |        256 |          5 |         16 |        277 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\App.test.js                               | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\Layout.js                                 | JavaScript |         11 |          0 |          1 |         12 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\actions\cartActions.js                    | JavaScript |         25 |          0 |          7 |         32 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\actions\orderActions.js                   | JavaScript |         81 |          3 |         24 |        108 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\actions\productActions.js                 | JavaScript |        164 |          6 |         30 |        200 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\actions\userActions.js                    | JavaScript |        171 |          4 |         48 |        223 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\actions\vehicleActions.js                 | JavaScript |        168 |         10 |         32 |        210 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\Dashboard.css            | CSS        |         85 |          0 |         12 |         97 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\Dashboard.js             | JavaScript |         68 |          0 |         12 |         80 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\NewProduct.css           | CSS        |        144 |          1 |         19 |        164 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\NewProduct.js            | JavaScript |        158 |         27 |         21 |        206 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\OrdersList.js            | JavaScript |        124 |          0 |         23 |        147 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\ProcessOrder.css         | CSS        |         38 |          0 |          5 |         43 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\ProcessOrder.js          | JavaScript |        165 |          0 |         16 |        181 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\ProductReviews.css       | CSS        |         56 |          0 |          6 |         62 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\ProductReviews.js        | JavaScript |        160 |          0 |         23 |        183 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\ProductsList.css         | CSS        |         49 |          0 |          7 |         56 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\ProductsList.js          | JavaScript |        128 |          1 |         18 |        147 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\Sidebar.css              | CSS        |         37 |          0 |          4 |         41 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\Sidebar.js               | JavaScript |         85 |          0 |          5 |         90 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\TravelAgencyDashboard.js | JavaScript |         92 |          0 |         16 |        108 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\UpdateProduct.js         | JavaScript |        193 |         34 |         28 |        255 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\UpdateUser.js            | JavaScript |        128 |          0 |         15 |        143 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Admin\UsersList.js             | JavaScript |        124 |          0 |         22 |        146 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\Cart.css                  | CSS        |        158 |          0 |         20 |        178 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\Cart.js                   | JavaScript |        101 |          0 |         10 |        111 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\CartItemCard.css          | CSS        |         50 |          0 |          9 |         59 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\CartItemCard.js           | JavaScript |         16 |          0 |          2 |         18 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\CheckoutSteps.css         | CSS        |         11 |          0 |          2 |         13 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\CheckoutSteps.js          | JavaScript |         45 |          0 |          5 |         50 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\ConfirmOrder.css          | CSS        |        165 |          0 |         34 |        199 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\ConfirmOrder.js           | JavaScript |        104 |          4 |          8 |        116 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\OrderSuccess.css          | CSS        |         41 |          0 |          2 |         43 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\OrderSuccess.js           | JavaScript |         15 |          0 |          3 |         18 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\Payment.css               | CSS        |         74 |          0 |         12 |         86 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\Payment.js                | JavaScript |        135 |          0 |         19 |        154 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\Shipping.css              | CSS        |         94 |          0 |         12 |        106 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Cart\Shipping.js               | JavaScript |        112 |          0 |         15 |        127 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Home\Home.css                  | CSS        |        132 |          0 |         21 |        153 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Home\Home.js                   | JavaScript |        104 |          2 |          7 |        113 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Home\ProductCard.js            | JavaScript |         54 |         15 |          6 |         75 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Home\VehicleCard.js            | JavaScript |         26 |          0 |          4 |         30 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Order\MyOrders.css             | CSS        |         67 |          0 |         13 |         80 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Order\MyOrders.js              | JavaScript |         99 |          0 |         12 |        111 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Order\OrderDetails.css         | CSS        |         89 |          0 |         20 |        109 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Order\OrderDetails.js          | JavaScript |        103 |          0 |          9 |        112 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Product\ProductDetails.css     | CSS        |        254 |          6 |         36 |        296 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Product\ProductDetails.js      | JavaScript |        242 |          0 |         21 |        263 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Product\Products.css           | CSS        |         95 |          0 |         15 |        110 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Product\Products.js            | JavaScript |        129 |        124 |         21 |        274 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Product\ReviewCard.js          | JavaScript |         19 |          0 |          3 |         22 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Product\Search.css             | CSS        |         49 |          3 |          5 |         57 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Product\Search.js              | JavaScript |         31 |          0 |          4 |         35 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Route\AdminProtectedRoute.js   | JavaScript |         15 |          0 |          2 |         17 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\Route\ProtectedRoute.js        | JavaScript |         16 |          0 |          2 |         18 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\ForgotPassword.css        | CSS        |         95 |          3 |         13 |        111 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\ForgotPassword.js         | JavaScript |         60 |          0 |         13 |         73 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\LoginSignup.css           | CSS        |        267 |          7 |         41 |        315 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\LoginSignup.js            | JavaScript |        208 |         88 |         19 |        315 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\Profile.css               | CSS        |        120 |          3 |         21 |        144 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\Profile.js                | JavaScript |         84 |          0 |          4 |         88 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\ResetPassword.css         | CSS        |         98 |          0 |         13 |        111 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\ResetPassword.js          | JavaScript |         80 |          0 |         14 |         94 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\UpdatePassword.css        | CSS        |         92 |          3 |         12 |        107 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\UpdatePassword.js         | JavaScript |         97 |          0 |         12 |        109 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\UpdateProfile.css         | CSS        |        141 |          3 |         19 |        163 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\User\UpdateProfile.js          | JavaScript |        258 |         23 |         18 |        299 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Contact.css             | CSS        |         25 |          0 |          3 |         28 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Contact.js              | JavaScript |         83 |         14 |         14 |        111 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Footer\Footer.css       | CSS        |         64 |          0 |          8 |         72 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Footer\Footer.js        | JavaScript |         28 |          0 |          5 |         33 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Header\Header.css       | CSS        |         13 |          0 |          2 |         15 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Header\Header.js        | JavaScript |         28 |          0 |          2 |         30 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Header\MetaData.js      | JavaScript |         10 |          0 |          2 |         12 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Header\UserOptions.js   | JavaScript |        107 |          0 |         11 |        118 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Loader\Loader.css       | CSS        |         20 |          0 |          4 |         24 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\components\layout\Loader\Loader.js        | JavaScript |         10 |          0 |          2 |         12 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\constants\cartConstants.js                | JavaScript |          4 |          0 |          0 |          4 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\constants\orderConstants.js               | JavaScript |         21 |          0 |          8 |         29 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\constants\productConstants.js             | JavaScript |         33 |          0 |         12 |         45 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\constants\userConstants.js                | JavaScript |         40 |          0 |         14 |         54 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\index.css                                 | CSS        |         12 |          0 |          2 |         14 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\index.js                                  | JavaScript |         21 |          0 |          3 |         24 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\reducers\cartReducer.js                   | JavaScript |         36 |          0 |          1 |         37 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\reducers\orderReducer.js                  | JavaScript |        173 |          2 |         13 |        188 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\reducers\productReducer.js                | JavaScript |        266 |          4 |         16 |        286 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\reducers\userReducer.js                   | JavaScript |        244 |          0 |         22 |        266 |
+| c:\Users\ACER\Desktop\cheap-grocery\frontend\src\store.js                                  | JavaScript |         58 |          0 |          6 |         64 |
+| c:\Users\ACER\Desktop\cheap-grocery\package-lock.json                                      | JSON       |      1,135 |          0 |          1 |      1,136 |
+| c:\Users\ACER\Desktop\cheap-grocery\package.json                                           | JSON       |         28 |          0 |          1 |         29 |
+| Total                                                                                      |            |     30,374 |        461 |      1,390 |     32,225 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

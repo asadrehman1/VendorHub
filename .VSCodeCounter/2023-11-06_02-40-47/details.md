@@ -1,0 +1,133 @@
+# Details
+
+Date : 2023-11-06 02:40:47
+
+Directory c:\\Users\\ACER\\Desktop\\cheap-grocery
+
+Total : 118 files,  30374 codes, 461 comments, 1390 blanks, all 32225 lines
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [backend/app.js](/backend/app.js) | JavaScript | 22 | 3 | 7 | 32 |
+| [backend/config/database.js](/backend/config/database.js) | JavaScript | 13 | 0 | 3 | 16 |
+| [backend/controllers/orderController.js](/backend/controllers/orderController.js) | JavaScript | 103 | 6 | 26 | 135 |
+| [backend/controllers/paymentController.js](/backend/controllers/paymentController.js) | JavaScript | 21 | 0 | 7 | 28 |
+| [backend/controllers/productController.js](/backend/controllers/productController.js) | JavaScript | 215 | 13 | 50 | 278 |
+| [backend/controllers/userController.js](/backend/controllers/userController.js) | JavaScript | 233 | 15 | 60 | 308 |
+| [backend/middlewares/auth.js](/backend/middlewares/auth.js) | JavaScript | 21 | 0 | 6 | 27 |
+| [backend/middlewares/catchAsyncErrors.js](/backend/middlewares/catchAsyncErrors.js) | JavaScript | 3 | 0 | 0 | 3 |
+| [backend/middlewares/error.js](/backend/middlewares/error.js) | JavaScript | 25 | 4 | 10 | 39 |
+| [backend/models/orderModel.js](/backend/models/orderModel.js) | JavaScript | 86 | 0 | 3 | 89 |
+| [backend/models/productModel.js](/backend/models/productModel.js) | JavaScript | 80 | 0 | 3 | 83 |
+| [backend/models/userModel.js](/backend/models/userModel.js) | JavaScript | 98 | 5 | 10 | 113 |
+| [backend/routes/orderRoute.js](/backend/routes/orderRoute.js) | JavaScript | 11 | 0 | 3 | 14 |
+| [backend/routes/paymentRoute.js](/backend/routes/paymentRoute.js) | JavaScript | 7 | 0 | 2 | 9 |
+| [backend/routes/productRoute.js](/backend/routes/productRoute.js) | JavaScript | 46 | 0 | 3 | 49 |
+| [backend/routes/userRoutes.js](/backend/routes/userRoutes.js) | JavaScript | 50 | 0 | 3 | 53 |
+| [backend/server.js](/backend/server.js) | JavaScript | 28 | 3 | 11 | 42 |
+| [backend/utils/apifeatures.js](/backend/utils/apifeatures.js) | JavaScript | 25 | 10 | 11 | 46 |
+| [backend/utils/errorhandler.js](/backend/utils/errorhandler.js) | JavaScript | 8 | 0 | 2 | 10 |
+| [backend/utils/jwtToken.js](/backend/utils/jwtToken.js) | JavaScript | 15 | 2 | 5 | 22 |
+| [backend/utils/sendEmail.js](/backend/utils/sendEmail.js) | JavaScript | 23 | 0 | 4 | 27 |
+| [frontend/README.md](/frontend/README.md) | Markdown | 38 | 0 | 33 | 71 |
+| [frontend/package-lock.json](/frontend/package-lock.json) | JSON | 19,643 | 0 | 1 | 19,644 |
+| [frontend/package.json](/frontend/package.json) | JSON | 70 | 0 | 1 | 71 |
+| [frontend/public/index.html](/frontend/public/index.html) | HTML | 26 | 0 | 4 | 30 |
+| [frontend/public/manifest.json](/frontend/public/manifest.json) | JSON | 25 | 0 | 1 | 26 |
+| [frontend/src/App.css](/frontend/src/App.css) | CSS | 18 | 5 | 4 | 27 |
+| [frontend/src/App.js](/frontend/src/App.js) | JavaScript | 256 | 5 | 16 | 277 |
+| [frontend/src/App.test.js](/frontend/src/App.test.js) | JavaScript | 7 | 0 | 2 | 9 |
+| [frontend/src/Layout.js](/frontend/src/Layout.js) | JavaScript | 11 | 0 | 1 | 12 |
+| [frontend/src/actions/cartActions.js](/frontend/src/actions/cartActions.js) | JavaScript | 25 | 0 | 7 | 32 |
+| [frontend/src/actions/orderActions.js](/frontend/src/actions/orderActions.js) | JavaScript | 81 | 3 | 24 | 108 |
+| [frontend/src/actions/productActions.js](/frontend/src/actions/productActions.js) | JavaScript | 164 | 6 | 30 | 200 |
+| [frontend/src/actions/userActions.js](/frontend/src/actions/userActions.js) | JavaScript | 171 | 4 | 48 | 223 |
+| [frontend/src/actions/vehicleActions.js](/frontend/src/actions/vehicleActions.js) | JavaScript | 168 | 10 | 32 | 210 |
+| [frontend/src/components/Admin/Dashboard.css](/frontend/src/components/Admin/Dashboard.css) | CSS | 85 | 0 | 12 | 97 |
+| [frontend/src/components/Admin/Dashboard.js](/frontend/src/components/Admin/Dashboard.js) | JavaScript | 68 | 0 | 12 | 80 |
+| [frontend/src/components/Admin/NewProduct.css](/frontend/src/components/Admin/NewProduct.css) | CSS | 144 | 1 | 19 | 164 |
+| [frontend/src/components/Admin/NewProduct.js](/frontend/src/components/Admin/NewProduct.js) | JavaScript | 158 | 27 | 21 | 206 |
+| [frontend/src/components/Admin/OrdersList.js](/frontend/src/components/Admin/OrdersList.js) | JavaScript | 124 | 0 | 23 | 147 |
+| [frontend/src/components/Admin/ProcessOrder.css](/frontend/src/components/Admin/ProcessOrder.css) | CSS | 38 | 0 | 5 | 43 |
+| [frontend/src/components/Admin/ProcessOrder.js](/frontend/src/components/Admin/ProcessOrder.js) | JavaScript | 165 | 0 | 16 | 181 |
+| [frontend/src/components/Admin/ProductReviews.css](/frontend/src/components/Admin/ProductReviews.css) | CSS | 56 | 0 | 6 | 62 |
+| [frontend/src/components/Admin/ProductReviews.js](/frontend/src/components/Admin/ProductReviews.js) | JavaScript | 160 | 0 | 23 | 183 |
+| [frontend/src/components/Admin/ProductsList.css](/frontend/src/components/Admin/ProductsList.css) | CSS | 49 | 0 | 7 | 56 |
+| [frontend/src/components/Admin/ProductsList.js](/frontend/src/components/Admin/ProductsList.js) | JavaScript | 128 | 1 | 18 | 147 |
+| [frontend/src/components/Admin/Sidebar.css](/frontend/src/components/Admin/Sidebar.css) | CSS | 37 | 0 | 4 | 41 |
+| [frontend/src/components/Admin/Sidebar.js](/frontend/src/components/Admin/Sidebar.js) | JavaScript | 85 | 0 | 5 | 90 |
+| [frontend/src/components/Admin/TravelAgencyDashboard.js](/frontend/src/components/Admin/TravelAgencyDashboard.js) | JavaScript | 92 | 0 | 16 | 108 |
+| [frontend/src/components/Admin/UpdateProduct.js](/frontend/src/components/Admin/UpdateProduct.js) | JavaScript | 193 | 34 | 28 | 255 |
+| [frontend/src/components/Admin/UpdateUser.js](/frontend/src/components/Admin/UpdateUser.js) | JavaScript | 128 | 0 | 15 | 143 |
+| [frontend/src/components/Admin/UsersList.js](/frontend/src/components/Admin/UsersList.js) | JavaScript | 124 | 0 | 22 | 146 |
+| [frontend/src/components/Cart/Cart.css](/frontend/src/components/Cart/Cart.css) | CSS | 158 | 0 | 20 | 178 |
+| [frontend/src/components/Cart/Cart.js](/frontend/src/components/Cart/Cart.js) | JavaScript | 101 | 0 | 10 | 111 |
+| [frontend/src/components/Cart/CartItemCard.css](/frontend/src/components/Cart/CartItemCard.css) | CSS | 50 | 0 | 9 | 59 |
+| [frontend/src/components/Cart/CartItemCard.js](/frontend/src/components/Cart/CartItemCard.js) | JavaScript | 16 | 0 | 2 | 18 |
+| [frontend/src/components/Cart/CheckoutSteps.css](/frontend/src/components/Cart/CheckoutSteps.css) | CSS | 11 | 0 | 2 | 13 |
+| [frontend/src/components/Cart/CheckoutSteps.js](/frontend/src/components/Cart/CheckoutSteps.js) | JavaScript | 45 | 0 | 5 | 50 |
+| [frontend/src/components/Cart/ConfirmOrder.css](/frontend/src/components/Cart/ConfirmOrder.css) | CSS | 165 | 0 | 34 | 199 |
+| [frontend/src/components/Cart/ConfirmOrder.js](/frontend/src/components/Cart/ConfirmOrder.js) | JavaScript | 104 | 4 | 8 | 116 |
+| [frontend/src/components/Cart/OrderSuccess.css](/frontend/src/components/Cart/OrderSuccess.css) | CSS | 41 | 0 | 2 | 43 |
+| [frontend/src/components/Cart/OrderSuccess.js](/frontend/src/components/Cart/OrderSuccess.js) | JavaScript | 15 | 0 | 3 | 18 |
+| [frontend/src/components/Cart/Payment.css](/frontend/src/components/Cart/Payment.css) | CSS | 74 | 0 | 12 | 86 |
+| [frontend/src/components/Cart/Payment.js](/frontend/src/components/Cart/Payment.js) | JavaScript | 135 | 0 | 19 | 154 |
+| [frontend/src/components/Cart/Shipping.css](/frontend/src/components/Cart/Shipping.css) | CSS | 94 | 0 | 12 | 106 |
+| [frontend/src/components/Cart/Shipping.js](/frontend/src/components/Cart/Shipping.js) | JavaScript | 112 | 0 | 15 | 127 |
+| [frontend/src/components/Home/Home.css](/frontend/src/components/Home/Home.css) | CSS | 132 | 0 | 21 | 153 |
+| [frontend/src/components/Home/Home.js](/frontend/src/components/Home/Home.js) | JavaScript | 104 | 2 | 7 | 113 |
+| [frontend/src/components/Home/ProductCard.js](/frontend/src/components/Home/ProductCard.js) | JavaScript | 54 | 15 | 6 | 75 |
+| [frontend/src/components/Home/VehicleCard.js](/frontend/src/components/Home/VehicleCard.js) | JavaScript | 26 | 0 | 4 | 30 |
+| [frontend/src/components/Order/MyOrders.css](/frontend/src/components/Order/MyOrders.css) | CSS | 67 | 0 | 13 | 80 |
+| [frontend/src/components/Order/MyOrders.js](/frontend/src/components/Order/MyOrders.js) | JavaScript | 99 | 0 | 12 | 111 |
+| [frontend/src/components/Order/OrderDetails.css](/frontend/src/components/Order/OrderDetails.css) | CSS | 89 | 0 | 20 | 109 |
+| [frontend/src/components/Order/OrderDetails.js](/frontend/src/components/Order/OrderDetails.js) | JavaScript | 103 | 0 | 9 | 112 |
+| [frontend/src/components/Product/ProductDetails.css](/frontend/src/components/Product/ProductDetails.css) | CSS | 254 | 6 | 36 | 296 |
+| [frontend/src/components/Product/ProductDetails.js](/frontend/src/components/Product/ProductDetails.js) | JavaScript | 242 | 0 | 21 | 263 |
+| [frontend/src/components/Product/Products.css](/frontend/src/components/Product/Products.css) | CSS | 95 | 0 | 15 | 110 |
+| [frontend/src/components/Product/Products.js](/frontend/src/components/Product/Products.js) | JavaScript | 129 | 124 | 21 | 274 |
+| [frontend/src/components/Product/ReviewCard.js](/frontend/src/components/Product/ReviewCard.js) | JavaScript | 19 | 0 | 3 | 22 |
+| [frontend/src/components/Product/Search.css](/frontend/src/components/Product/Search.css) | CSS | 49 | 3 | 5 | 57 |
+| [frontend/src/components/Product/Search.js](/frontend/src/components/Product/Search.js) | JavaScript | 31 | 0 | 4 | 35 |
+| [frontend/src/components/Route/AdminProtectedRoute.js](/frontend/src/components/Route/AdminProtectedRoute.js) | JavaScript | 15 | 0 | 2 | 17 |
+| [frontend/src/components/Route/ProtectedRoute.js](/frontend/src/components/Route/ProtectedRoute.js) | JavaScript | 16 | 0 | 2 | 18 |
+| [frontend/src/components/User/ForgotPassword.css](/frontend/src/components/User/ForgotPassword.css) | CSS | 95 | 3 | 13 | 111 |
+| [frontend/src/components/User/ForgotPassword.js](/frontend/src/components/User/ForgotPassword.js) | JavaScript | 60 | 0 | 13 | 73 |
+| [frontend/src/components/User/LoginSignup.css](/frontend/src/components/User/LoginSignup.css) | CSS | 267 | 7 | 41 | 315 |
+| [frontend/src/components/User/LoginSignup.js](/frontend/src/components/User/LoginSignup.js) | JavaScript | 208 | 88 | 19 | 315 |
+| [frontend/src/components/User/Profile.css](/frontend/src/components/User/Profile.css) | CSS | 120 | 3 | 21 | 144 |
+| [frontend/src/components/User/Profile.js](/frontend/src/components/User/Profile.js) | JavaScript | 84 | 0 | 4 | 88 |
+| [frontend/src/components/User/ResetPassword.css](/frontend/src/components/User/ResetPassword.css) | CSS | 98 | 0 | 13 | 111 |
+| [frontend/src/components/User/ResetPassword.js](/frontend/src/components/User/ResetPassword.js) | JavaScript | 80 | 0 | 14 | 94 |
+| [frontend/src/components/User/UpdatePassword.css](/frontend/src/components/User/UpdatePassword.css) | CSS | 92 | 3 | 12 | 107 |
+| [frontend/src/components/User/UpdatePassword.js](/frontend/src/components/User/UpdatePassword.js) | JavaScript | 97 | 0 | 12 | 109 |
+| [frontend/src/components/User/UpdateProfile.css](/frontend/src/components/User/UpdateProfile.css) | CSS | 141 | 3 | 19 | 163 |
+| [frontend/src/components/User/UpdateProfile.js](/frontend/src/components/User/UpdateProfile.js) | JavaScript | 258 | 23 | 18 | 299 |
+| [frontend/src/components/layout/Contact.css](/frontend/src/components/layout/Contact.css) | CSS | 25 | 0 | 3 | 28 |
+| [frontend/src/components/layout/Contact.js](/frontend/src/components/layout/Contact.js) | JavaScript | 83 | 14 | 14 | 111 |
+| [frontend/src/components/layout/Footer/Footer.css](/frontend/src/components/layout/Footer/Footer.css) | CSS | 64 | 0 | 8 | 72 |
+| [frontend/src/components/layout/Footer/Footer.js](/frontend/src/components/layout/Footer/Footer.js) | JavaScript | 28 | 0 | 5 | 33 |
+| [frontend/src/components/layout/Header/Header.css](/frontend/src/components/layout/Header/Header.css) | CSS | 13 | 0 | 2 | 15 |
+| [frontend/src/components/layout/Header/Header.js](/frontend/src/components/layout/Header/Header.js) | JavaScript | 28 | 0 | 2 | 30 |
+| [frontend/src/components/layout/Header/MetaData.js](/frontend/src/components/layout/Header/MetaData.js) | JavaScript | 10 | 0 | 2 | 12 |
+| [frontend/src/components/layout/Header/UserOptions.js](/frontend/src/components/layout/Header/UserOptions.js) | JavaScript | 107 | 0 | 11 | 118 |
+| [frontend/src/components/layout/Loader/Loader.css](/frontend/src/components/layout/Loader/Loader.css) | CSS | 20 | 0 | 4 | 24 |
+| [frontend/src/components/layout/Loader/Loader.js](/frontend/src/components/layout/Loader/Loader.js) | JavaScript | 10 | 0 | 2 | 12 |
+| [frontend/src/constants/cartConstants.js](/frontend/src/constants/cartConstants.js) | JavaScript | 4 | 0 | 0 | 4 |
+| [frontend/src/constants/orderConstants.js](/frontend/src/constants/orderConstants.js) | JavaScript | 21 | 0 | 8 | 29 |
+| [frontend/src/constants/productConstants.js](/frontend/src/constants/productConstants.js) | JavaScript | 33 | 0 | 12 | 45 |
+| [frontend/src/constants/userConstants.js](/frontend/src/constants/userConstants.js) | JavaScript | 40 | 0 | 14 | 54 |
+| [frontend/src/index.css](/frontend/src/index.css) | CSS | 12 | 0 | 2 | 14 |
+| [frontend/src/index.js](/frontend/src/index.js) | JavaScript | 21 | 0 | 3 | 24 |
+| [frontend/src/reducers/cartReducer.js](/frontend/src/reducers/cartReducer.js) | JavaScript | 36 | 0 | 1 | 37 |
+| [frontend/src/reducers/orderReducer.js](/frontend/src/reducers/orderReducer.js) | JavaScript | 173 | 2 | 13 | 188 |
+| [frontend/src/reducers/productReducer.js](/frontend/src/reducers/productReducer.js) | JavaScript | 266 | 4 | 16 | 286 |
+| [frontend/src/reducers/userReducer.js](/frontend/src/reducers/userReducer.js) | JavaScript | 244 | 0 | 22 | 266 |
+| [frontend/src/store.js](/frontend/src/store.js) | JavaScript | 58 | 0 | 6 | 64 |
+| [package-lock.json](/package-lock.json) | JSON | 1,135 | 0 | 1 | 1,136 |
+| [package.json](/package.json) | JSON | 28 | 0 | 1 | 29 |
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
